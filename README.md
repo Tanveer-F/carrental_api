@@ -158,6 +158,9 @@ And track expenses — all from a single dashboard. One thing I found interestin
 While keeping direct bookings open, helping them keep more profit. 
 Overall, it’s built to simplify operations while increasing earnings for independent fleet owners.
 
+My backend API could connect to the frontend of LahoreCarRental.com through standard HTTP requests using JSON. The frontend (built in React, Vue, etc.) would call these REST endpoints for user login, vehicle management, and booking workflows. JWT tokens returned from login can be stored in localStorage or cookies, and sent with each request to keep the session secure. This setup allows seamless communication between the UI and backend while enforcing user-based data access and validation.
+
+
 
 ---
 
